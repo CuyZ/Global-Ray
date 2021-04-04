@@ -14,6 +14,7 @@ return [
             ->notName('/.*\\.md|.*\\.dist|Makefile|composer\\.json|composer\\.lock/')
             ->exclude([
                 'doc',
+                'docs',
                 'test',
                 'tests',
                 'Tests',
