@@ -1,0 +1,22 @@
+{
+    "name": "cuyz/global-ray",
+    "description": "Use Ray in any PHP script without requiring it in your projects.",
+    "authors": [
+        {
+            "name": "Romain Canon",
+            "email": "romain.hydrocanon@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "spatie/ray": "^1.0"
+    },
+    "scripts": {
+        "refresh": [
+            "rm -rf build",
+            "bin/php-scoper.phar add-prefix --force --output-dir=build_tmp",
+            "composer dump-autoload --optimize --no-scripts --classmap-authoritative --working-dir=build_tmp",
+            "php tests/test.php",
+            "mv build_tmp build"
+        ]
+    }
+}
