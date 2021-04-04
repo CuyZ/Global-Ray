@@ -7,7 +7,7 @@
             "email": "romain.hydrocanon@gmail.com"
         }
     ],
-    "require-dev": {
+    "require": {
         "spatie/ray": "^1.0"
     },
     "scripts": {
