@@ -5,6 +5,8 @@ declare(strict_types=1);
 use Isolated\Symfony\Component\Finder\Finder;
 
 return [
+    'prefix' => 'RayGlobalScoped',
+
     'finders' => [
         Finder::create()
             ->files()
