@@ -20,4 +20,14 @@ Use [Ray] in any PHP script without requiring it in your projects.
    ray('Hello world!')->blue();
    ```
 
+Build the project
+-----------------
+
+```bash
+$ git clone https://github.com/CuyZ/Global-Ray
+$ cd Global-Ray
+$ composer install --no-dev
+$ composer refresh
+```
+
 [Ray]: https://spatie.be/products/ray
