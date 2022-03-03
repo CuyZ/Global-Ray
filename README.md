@@ -1,6 +1,17 @@
 Global Ray
 ==========
 
+This package is abandonned — Spatie now provide their own implementation of that feature, see:
+
+➡️ **[spatie/global-ray](https://github.com/spatie/global-ray)**
+
+Thank you Spatie for hearing our p·**ray**·ers! 🤗
+
+---
+
+<details>
+<summary>Show old information</summary>
+
 Use [Ray] in any PHP script without requiring it in your projects.
 
 1. Require this package **globally** with Composer:
@@ -31,3 +42,5 @@ $ composer refresh
 ```
 
 [Ray]: https://spatie.be/products/ray
+</details>
+
